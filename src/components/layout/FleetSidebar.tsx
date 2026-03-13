@@ -144,7 +144,7 @@ export function FleetSidebar({ activeSection, onNavigate, isCollapsed, onToggleC
         )}>
           {!isCollapsed && (
             <button 
-              onClick={() => navigate('/login')}
+              onClick={() => navigate('/switch')}
               className="flex items-center gap-2 px-4 py-2 rounded-xl text-text-muted hover:text-text-primary transition-colors text-[10px] font-bold uppercase tracking-widest animate-in fade-in"
             >
               <ChevronLeft className="w-3 h-3" /> Switch Role

@@ -72,6 +72,14 @@ export default function OwnerDashboard() {
         );
       case 'reports': 
         return <ReportsView onExport={(format) => triggerToast(`Exporting report as ${format}...`, "success")} />;
+      case 'vehicles':
+      case 'settings':
+        return (
+          <div className="flex flex-col items-center justify-center min-h-[60vh] text-text-muted gap-4 py-20 p-12 text-center">
+             <div className="w-16 h-16 rounded-full bg-white/5 flex items-center justify-center italic font-black text-2xl border border-white/5">S</div>
+             <p className="font-bold uppercase tracking-widest text-xs">Section "{activeSection}" Under Construction</p>
+          </div>
+        );
       default: 
         return <OverviewView currentTelemetry={currentTelemetry} onTripClick={setShowTripModal} />;
     }

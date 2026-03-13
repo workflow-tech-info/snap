@@ -1,0 +1,100 @@
+{
+  "fleet_summary": {
+    "total_vehicles": 128,
+    "active_now": 114,
+    "offline": 14,
+    "on_cng": 62,
+    "on_ev": 40,
+    "on_petrol": 26,
+    "fuel_savings_today": 42870,
+    "fuel_savings_month": 982300,
+    "lifetime_savings_inr": 14200000,
+    "total_co2_kg": 2840,
+    "avg_efficiency_km_kg": 27.3,
+    "health": {
+       "healthy": 94,
+       "attention": 21,
+       "critical": 5,
+       "regulator_issues": 3,
+       "injector_issues": 7
+    },
+    "finance": {
+       "total_investment": 18200000,
+       "roi_pct": 78,
+       "cost_per_km_cng": 2.4,
+       "cost_per_km_petrol": 7.8
+    }
+  },
+  "vehicles": [
+    { "vin": "EV-TN01-1122", "driver": "Anjali K.", "location": "Aerocity", "fuel_mode": "EV", "speed": 42, "health_score": 98, "soc": 74, "range_left": 182, "temp": 32, "last_seen": "Live", "model": "Tata Nexo EV", "kit": "Snap OS Core", "cylinder": "40kWh", "km_today": 142, "savings_today": 1120 },
+    { "vin": "DL01AB1234", "driver": "Rahul Sharma", "location": "Gurgaon", "fuel_mode": "CNG", "speed": 64, "rpm": 2380, "gas_pressure": 198, "health_score": 92, "last_seen": "2m ago", "model": "WagonR", "kit": "Sequential v3", "cylinder": "60L", "km_today": 134, "savings_today": 820 },
+    { "vin": "DL02XY5532", "driver": "Amit Patel", "location": "Noida", "fuel_mode": "PETROL", "speed": 42, "rpm": 1950, "gas_pressure": 0, "health_score": 64, "last_seen": "1m ago", "model": "Ertiga", "kit": "Sequential v3", "cylinder": "75L", "km_today": 98, "savings_today": 0 },
+    { "vin": "DL01PQ8891", "driver": "Suresh Kumar", "location": "Dwarka", "fuel_mode": "CNG", "speed": 55, "rpm": 2100, "gas_pressure": 185, "health_score": 88, "last_seen": "Live", "model": "City ZX", "kit": "Sequential v3", "cylinder": "60L", "km_today": 156, "savings_today": 940 },
+    { "vin": "DL04MN2210", "driver": "Vijay Singh", "location": "Vasant Kunj", "fuel_mode": "CNG", "speed": 34, "rpm": 1820, "gas_pressure": 202, "health_score": 95, "last_seen": "5m ago", "model": "Dzire", "kit": "Sequential v3", "cylinder": "60L", "km_today": 78, "savings_today": 480 },
+    { "vin": "DL03KH9090", "driver": "Rahul T.", "location": "Okhla", "fuel_mode": "CNG", "speed": 0, "rpm": 0, "gas_pressure": 192, "health_score": 91, "last_seen": "10m ago", "model": "Verna", "kit": "Sequential v3", "cylinder": "60L", "km_today": 120, "savings_today": 720 },
+    { "vin": "MH12AB1001", "driver": "Karan J.", "location": "Pune", "fuel_mode": "CNG", "speed": 72, "rpm": 2450, "gas_pressure": 194, "health_score": 94, "last_seen": "Live", "model": "Honda City", "kit": "Sequential v3", "cylinder": "60L", "km_today": 88, "savings_today": 530 },
+    { "vin": "DL05JJ4040", "driver": "Dinesh G.", "location": "Rohini", "fuel_mode": "PETROL", "speed": 12, "rpm": 1400, "gas_pressure": 0, "health_score": 72, "last_seen": "3m ago", "model": "Aura", "kit": "Sequential v3", "cylinder": "60L", "km_today": 110, "savings_today": 0 },
+    { "vin": "DL02BB2002", "driver": "Nitin B.", "location": "Aerocity", "fuel_mode": "CNG", "speed": 48, "rpm": 2150, "gas_pressure": 190, "health_score": 90, "last_seen": "Live", "model": "Ertiga", "kit": "Sequential v3", "cylinder": "75L", "km_today": 204, "savings_today": 1240 },
+    { "vin": "KA01ZZ9999", "driver": "Priya R.", "location": "Indiranagar", "fuel_mode": "CNG", "speed": 22, "rpm": 1600, "gas_pressure": 197, "health_score": 96, "last_seen": "Live", "model": "Glanza", "kit": "Sequential v3", "cylinder": "60L", "km_today": 45, "savings_today": 280 },
+    { "vin": "DL01CC3333", "driver": "Manoj S.", "location": "Saket", "fuel_mode": "CNG", "speed": 58, "rpm": 2300, "gas_pressure": 188, "health_score": 89, "last_seen": "1h ago", "model": "Dzire", "kit": "Sequential v3", "cylinder": "60L", "km_today": 130, "savings_today": 790 },
+    { "vin": "DL04DD4444", "driver": "Arjun V.", "location": "Connaught Place", "fuel_mode": "CNG", "speed": 0, "rpm": 0, "gas_pressure": 195, "health_score": 93, "last_seen": "20m ago", "model": "WagonR", "kit": "Sequential v3", "cylinder": "60L", "km_today": 92, "savings_today": 560 },
+    { "vin": "DL01EE5555", "driver": "Deepak L.", "location": "Janakpuri", "fuel_mode": "CNG", "speed": 66, "rpm": 2500, "gas_pressure": 182, "health_score": 87, "last_seen": "Live", "model": "Baleno", "kit": "Sequential v3", "cylinder": "60L", "km_today": 178, "savings_today": 1080 },
+    { "vin": "DL02FF6666", "driver": "Sonia M.", "location": "Lajpat Nagar", "fuel_mode": "CNG", "speed": 38, "rpm": 2000, "gas_pressure": 199, "health_score": 95, "last_seen": "Live", "model": "Celerio", "kit": "Sequential v3", "cylinder": "60L", "km_today": 64, "savings_today": 390 },
+    { "vin": "DL03GG7777", "driver": "Vikram H.", "location": "Mayur Vihar", "fuel_mode": "PETROL", "speed": 52, "rpm": 2200, "gas_pressure": 0, "health_score": 78, "last_seen": "2m ago", "model": "Santro", "kit": "Sequential v3", "cylinder": "60L", "km_today": 142, "savings_today": 0 },
+    { "vin": "DL04HH8888", "driver": "Anjali K.", "location": "Preet Vihar", "fuel_mode": "CNG", "speed": 75, "rpm": 2600, "gas_pressure": 191, "health_score": 92, "last_seen": "Live", "model": "Tiago", "kit": "Sequential v3", "cylinder": "60L", "km_today": 115, "savings_today": 700 },
+    { "vin": "DL05II9999", "driver": "Sameer P.", "location": "Pitampura", "fuel_mode": "CNG", "speed": 45, "rpm": 2100, "gas_pressure": 196, "health_score": 94, "last_seen": "Live", "model": "Amaze", "kit": "Sequential v3", "cylinder": "60L", "km_today": 128, "savings_today": 780 },
+    { "vin": "DL01JJ0000", "driver": "Rohan T.", "location": "Karol Bagh", "fuel_mode": "CNG", "speed": 32, "rpm": 1800, "gas_pressure": 187, "health_score": 86, "last_seen": "5m ago", "model": "Swift", "kit": "Sequential v3", "cylinder": "60L", "km_today": 85, "savings_today": 520 },
+    { "vin": "DL02KK1111", "driver": "Meena W.", "location": "Palam", "fuel_mode": "CNG", "speed": 60, "rpm": 2400, "gas_pressure": 201, "health_score": 97, "last_seen": "Live", "model": "Venue", "kit": "Sequential v3", "cylinder": "60L", "km_today": 50, "savings_today": 300 },
+    { "vin": "DL03LL2222", "driver": "Jatin B.", "location": "Chandni Chowk", "fuel_mode": "CNG", "speed": 18, "rpm": 1500, "gas_pressure": 193, "health_score": 91, "last_seen": "Live", "model": "i10", "kit": "Sequential v3", "cylinder": "60L", "km_today": 68, "savings_today": 410 },
+    { "vin": "DL04MM3333", "driver": "Pooja R.", "location": "Shahdara", "fuel_mode": "CNG", "speed": 54, "rpm": 2250, "gas_pressure": 189, "health_score": 90, "last_seen": "10m ago", "model": "Ignis", "kit": "Sequential v3", "cylinder": "60L", "km_today": 145, "savings_today": 880 }
+  ],
+  "alerts": [
+    { "id": "alt_1", "vin": "DL01AB1234", "severity": "WARNING", "type": "Gas pressure fluctuation", "time": "12:40 PM" },
+    { "id": "alt_2", "vin": "DL02XY5532", "severity": "CRITICAL", "type": "Misfire detected in cylinder 2", "time": "01:15 PM" },
+    { "id": "alt_3", "vin": "DL01PQ8891", "severity": "CRITICAL", "type": "Coolant temperature high", "time": "02:30 PM" },
+    { "id": "alt_4", "vin": "DL04MN2210", "severity": "WARNING", "type": "Regulator calibration drift", "time": "03:10 PM" },
+    { "id": "alt_5", "vin": "DL01AB1234", "severity": "INFO", "type": "Filter replacement due in 500km", "time": "04:00 PM" }
+  ],
+  "tracking": [
+    { "vin": "DL01AB1234", "lat": 28.4595, "lng": 77.0266, "speed": 64, "status": "moving", "fuel": "CNG" },
+    { "vin": "DL02XY5532", "lat": 28.5355, "lng": 77.3910, "speed": 42, "status": "moving", "fuel": "PETROL" },
+    { "vin": "DL01PQ8891", "lat": 28.5823, "lng": 77.0500, "speed": 55, "status": "moving", "fuel": "CNG" },
+    { "vin": "DL04MN2210", "lat": 28.5300, "lng": 77.1500, "speed": 34, "status": "moving", "fuel": "CNG" },
+    { "vin": "MH12AB1001", "lat": 18.5204, "lng": 73.8567, "speed": 72, "status": "moving", "fuel": "CNG" }
+  ],
+  "analytics": {
+    "fuel_consumption_today": [
+      { "name": "08:00", "cng": 120, "petrol": 30 },
+      { "name": "10:00", "cng": 340, "petrol": 80 },
+      { "name": "12:00", "cng": 560, "petrol": 120 },
+      { "name": "14:00", "cng": 890, "petrol": 210 },
+      { "name": "16:00", "cng": 1100, "petrol": 280 },
+      { "name": "18:00", "cng": 1280, "petrol": 310 }
+    ],
+    "savings_chart": [
+      { "date": "Mon", "savings": 38000 },
+      { "date": "Tue", "savings": 41000 },
+      { "date": "Wed", "savings": 39500 },
+      { "date": "Thu", "savings": 42870 },
+      { "date": "Fri", "savings": 44000 },
+      { "date": "Sat", "savings": 31000 },
+      { "date": "Sun", "savings": 28000 }
+    ]
+  },
+  "trips": [
+    { "vehicle": "DL01AB1234", "driver": "Rahul Sharma", "start": "08:14 AM", "end": "09:05 AM", "dist": "34 km", "fuel": "1.3 kg", "saved": "₹185" },
+    { "vehicle": "DL02XY5532", "driver": "Amit Patel", "start": "10:30 AM", "end": "11:45 AM", "dist": "52 km", "fuel": "4.2 L", "saved": "₹0" },
+    { "vehicle": "DL01PQ8891", "driver": "Suresh Kumar", "start": "07:00 AM", "end": "08:30 AM", "dist": "48 km", "fuel": "1.9 kg", "saved": "₹260" }
+  ],
+  "drivers": [
+     { "name": "Rahul Sharma", "vehicle": "DL01AB1234", "score": 89, "efficiency": 28, "harsh_events": 3, "idle_time": 22 },
+     { "name": "Amit Patel", "vehicle": "DL02XY5532", "score": 74, "efficiency": 21, "harsh_events": 12, "idle_time": 45 },
+     { "name": "Suresh Kumar", "vehicle": "DL01PQ8891", "score": 92, "efficiency": 29, "harsh_events": 1, "idle_time": 12 }
+  ],
+  "insights": [
+     { "type": "OPTIMIZATION", "message": "Fuel efficiency across fleet dropped 6% this week.", "impact": "HIGH" },
+     { "type": "SAVINGS", "message": "Fleet could save ₹1.2L/month by reducing idle time.", "impact": "MEDIUM" },
+     { "type": "OPTIMIZATION", "message": "12 vehicles running above optimal RPM range.", "impact": "MEDIUM" },
+     { "type": "MAINTENANCE", "message": "3 vehicles likely need regulator calibration.", "impact": "CRITICAL" }
+  ]
+}

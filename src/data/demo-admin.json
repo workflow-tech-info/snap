@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "total_installations": 4812,
+    "installations_today": 28,
+    "active_vehicles": 4120,
+    "devices_online": 3987,
+    "devices_offline": 133,
+    "workshops_active": 47,
+    "technicians_active": 82,
+    "monthly_installations": 642
+  },
+  "workshop_performance": [
+    { "name": "Delhi Central", "installs": 38, "rating": 4.6, "city": "Delhi", "technicians": 7 },
+    { "name": "Mumbai West", "installs": 29, "rating": 4.8, "city": "Mumbai", "technicians": 5 },
+    { "name": "Bangalore North", "installs": 21, "rating": 4.5, "city": "Bangalore", "technicians": 6 },
+    { "name": "Chennai East", "installs": 18, "rating": 4.7, "city": "Chennai", "technicians": 4 },
+    { "name": "Hyderabad Hub", "installs": 24, "rating": 4.6, "city": "Hyderabad", "technicians": 8 }
+  ],
+  "installations": [
+    { "id": "INST-2481", "vin": "DL01AB1234", "customer": "Rahul Sharma", "workshop": "Delhi Central", "technician": "Aman Singh", "kit": "Sequential Kit V3", "cylinder": "60L Steel", "date": "12 Feb 2026", "status": "Completed" },
+    { "id": "INST-2482", "vin": "MH02XY5532", "customer": "Amit Patel", "workshop": "Mumbai West", "technician": "Rajesh K.", "kit": "Sequential Kit V3", "cylinder": "75L Composite", "date": "14 Feb 2026", "status": "In Progress" },
+    { "id": "INST-2483", "vin": "KA01PQ8891", "customer": "Suresh Kumar", "workshop": "Bangalore North", "technician": "Vijay N.", "kit": "Sequential Kit V3", "cylinder": "60L Steel", "date": "15 Feb 2026", "status": "Scheduled" },
+    { "id": "INST-EV-001", "vin": "EV-TN01-1122", "customer": "Anjali K.", "workshop": "Delhi Central", "technician": "Aman Singh", "kit": "Snap OS EV Bridge", "cylinder": "40kWh LFP", "date": "18 Feb 2026", "status": "Ready for Sync" }
+  ],
+  "devices": [
+    { "id": "SNAP-ECU-88231", "model": "Snap ECU V2", "vin": "DL01AB1234", "version": "v1.4.2", "last_seen": "2m ago", "status": "Online" },
+    { "id": "SNAP-ECU-88232", "model": "Snap ECU V2", "vin": "MH02XY5532", "version": "v1.4.1", "last_seen": "1h ago", "status": "Offline" },
+    { "id": "SNAP-ECU-88233", "model": "Snap ECU V2", "vin": "KA01PQ8891", "version": "v1.4.2", "last_seen": "Live", "status": "Online" }
+  ],
+  "inventory": [
+    { "item": "ECU Units", "stock": 214, "status": "Optimal" },
+    { "item": "Snap OS EV Bridge", "stock": 42, "status": "Optimal" },
+    { "item": "Regulators", "stock": 181, "status": "Low", "alert": true },
+    { "item": "Injectors", "stock": 390, "status": "Optimal" },
+    { "item": "Cylinders 60L", "stock": 122, "status": "Optimal" },
+    { "item": "Cylinders 40L", "stock": 88, "status": "Optimal" }
+  ],
+  "technicians": [
+    { "name": "Aman Singh", "workshop": "Delhi Central", "installs": 142, "avg_time": "3.2h", "rating": 4.8 },
+    { "name": "Rajesh K.", "workshop": "Mumbai West", "installs": 118, "avg_time": "3.5h", "rating": 4.7 },
+    { "name": "Vijay N.", "workshop": "Bangalore North", "installs": 94, "avg_time": "3.8h", "rating": 4.5 }
+  ],
+  "service_jobs": [
+    { "id": "JOB-4811", "vin": "DL01AB1234", "issue": "Gas pressure fluctuation", "technician": "Aman Singh", "status": "In Progress" },
+    { "id": "JOB-4812", "vin": "MH04ZZ1122", "issue": "Injector calibration", "technician": "Rajesh K.", "status": "Completed" },
+    { "id": "JOB-EV-042", "vin": "EV-TN01-1122", "issue": "Battery Cell Balancing", "technician": "Aman Singh", "status": "Scheduled" }
+  ],
+  "insights": [
+    { "type": "EFFICIENCY", "message": "Delhi workshop performing 23% more installs than average.", "impact": "HIGH" },
+    { "type": "INVENTORY", "message": "Injector stock running low. Estimated 4 days remaining.", "impact": "CRITICAL" },
+    { "type": "TECHNICAL", "message": "5 vehicles reporting recurring regulator pressure fluctuations.", "impact": "MEDIUM" }
+  ]
+}

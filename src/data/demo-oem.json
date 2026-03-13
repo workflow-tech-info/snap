@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "total_vehicles": 48320,
+    "online": 45110,
+    "offline": 3210,
+    "total_kits": 46880,
+    "installers": 172,
+    "daily_cng": 182400,
+    "daily_fuel_saved": 511000,
+    "total_ev_soc_avg": 82,
+    "co2_reduced": 812000
+  },
+  "kit_performance": [
+    { "model": "Sequential Kit V3", "vehicles": 12840, "efficiency": 27.4, "failure_rate": 0.8, "timing": 3.1, "pressure": 1.98 },
+    { "model": "Direct Injection V4", "vehicles": 8420, "efficiency": 29.1, "failure_rate": 0.5, "timing": 2.8, "pressure": 2.10 },
+    { "model": "Commercial HD V2", "vehicles": 15620, "efficiency": 22.4, "failure_rate": 1.4, "timing": 4.2, "pressure": 1.85 },
+    { "model": "Compact ECO V1", "vehicles": 10000, "efficiency": 28.2, "failure_rate": 0.6, "timing": 3.4, "pressure": 1.95 }
+  ],
+  "regional_insights": [
+    { "region": "Delhi", "vehicles": 12200, "efficiency": 26.8, "savings": 2.8 },
+    { "region": "Mumbai", "vehicles": 9400, "efficiency": 25.9, "savings": 2.2 },
+    { "region": "Bangalore", "vehicles": 7300, "efficiency": 27.2, "savings": 1.7 },
+    { "region": "Hyderabad", "vehicles": 6800, "efficiency": 26.5, "savings": 1.5 },
+    { "region": "Chennai", "vehicles": 5200, "efficiency": 26.1, "savings": 1.2 }
+  ],
+  "installers": [
+    { "name": "Delhi Central Workshop", "city": "Delhi", "installations": 1420, "failure_rate": 1.2, "rating": 4.7 },
+    { "name": "Mumbai West Hub", "city": "Mumbai", "installations": 1180, "failure_rate": 0.9, "rating": 4.8 },
+    { "name": "Bangalore Tech Point", "city": "Bangalore", "installations": 940, "failure_rate": 1.5, "rating": 4.5 }
+  ],
+  "component_health": {
+    "injectors": { "issues": 182, "status": "Stable" },
+    "regulators": { "issues": 91, "status": "Warning" },
+    "sensors": { "issues": 45, "status": "Optimal" },
+    "ecu": { "issues": 37, "status": "Optimal" }
+  },
+  "insights": [
+    { "type": "EFFICIENCY", "message": "Sequential Kit V3 showing 8% better efficiency compared to V2.", "impact": "HIGH" },
+    { "type": "RELIABILITY", "message": "Injector failures concentrated in vehicles older than 7 years.", "impact": "CRITICAL" },
+    { "type": "ADOPTION", "message": "Delhi region saving ₹3.2 Cr per month through CNG adoption.", "impact": "HIGH" }
+  ]
+}

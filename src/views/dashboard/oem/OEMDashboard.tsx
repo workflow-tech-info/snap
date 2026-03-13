@@ -12,7 +12,6 @@ import { OEMInstallers } from './OEMInstallers';
 import { OEMAlerts } from './OEMAlerts';
 import { OEMReports } from './OEMReports';
 import { OEMSettings } from './OEMSettings';
-import { SmartMfgInsights } from '../../../components/intelligence/SmartMfgInsights';
 
 export function OEMDashboard() {
   const [activeSection, setActiveSection] = useState('overview');

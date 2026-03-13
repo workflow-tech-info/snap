@@ -40,7 +40,7 @@ export function OEMImpact() {
             <Droplets className="w-10 h-10 text-primary opacity-40 mb-2" />
             <div className="flex flex-col">
                <span className="text-[10px] font-black text-text-muted uppercase tracking-widest not-italic italic opacity-60">Petrol Offset Today</span>
-               <span className="text-4xl font-black italic">{s.daily_petrol_saved.toLocaleString()} <span className="text-sm opacity-40">L</span></span>
+               <span className="text-4xl font-black italic">{s.daily_fuel_saved.toLocaleString()} <span className="text-sm opacity-40">L</span></span>
             </div>
             <div className="flex items-center gap-2 text-accent text-[10px] font-bold uppercase tracking-widest leading-none">
                <ArrowUpRight className="w-3 h-3" /> Fleet-wide impact

@@ -217,9 +217,9 @@ export function FleetOverview() {
                              <td className="px-8 py-5 text-center text-text-muted/60 font-mono text-xs">{v.fuel_mode === 'EV' ? `${v.temp}°C` : v.rpm}</td>
                              <td className="px-8 py-5 text-center">
                                  <span className={cn("font-semibold", 
-                                   (v.gas_pressure < 50 && v.fuel_mode === 'CNG') || (v.soc < 20 && v.fuel_mode === 'EV') ? "text-danger" : "text-text-primary"
+                                   ((v as any).gas_pressure < 50 && v.fuel_mode === 'CNG') || ((v as any).soc < 20 && v.fuel_mode === 'EV') ? "text-danger" : "text-text-primary"
                                  )}>
-                                    {v.fuel_mode === 'EV' ? v.soc : v.gas_pressure} 
+                                    {v.fuel_mode === 'EV' ? (v as any).soc : (v as any).gas_pressure} 
                                     <span className="text-[10px] font-medium opacity-30 uppercase ml-1">{v.fuel_mode === 'EV' ? '%' : 'bar'}</span>
                                  </span>
                              </td>

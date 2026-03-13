@@ -1,4 +1,4 @@
-import { ArrowRight, Zap, Shield, TrendingUp } from 'lucide-react';
+import { ArrowRight, Zap, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function HomeView() {

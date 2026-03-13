@@ -14,9 +14,9 @@ import {
   Menu,
   X as CloseIcon
 } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { cn } from '../../lib/utils';
-import { useNavigate, Link, useLocation } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 export type NavSection = 
   | 'overview' 

@@ -8,7 +8,6 @@ import OwnerDashboard from './views/dashboard/OwnerDashboard';
 import FleetDashboard from './views/dashboard/fleet/FleetDashboard';
 import { AdminDashboard } from './views/dashboard/admin/AdminDashboard';
 import { OEMDashboard } from './views/dashboard/oem/OEMDashboard';
-import PlaceholderDashboard from './views/dashboard/PlaceholderDashboard';
 
 export default function App() {
   return (
